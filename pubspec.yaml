@@ -1,0 +1,41 @@
+# 2022/05/31
+
+# GENERAL
+environment:
+  sdk: '>=2.17.6 <3.0.0'
+
+name: assignment_1
+
+version: 2022.05.31
+
+
+
+# GLOBAL
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_web_plugins:
+    sdk: flutter
+
+  google_fonts: ^3.0.1
+
+  provider: ^6.0.3
+
+  url_launcher: ^6.1.5
+
+
+dev_dependencies:
+  pedantic_mono: any
+
+
+
+# LOCAL
+flutter:
+  assets:
+    - asset/
+
+  uses-material-design: true
